@@ -1,0 +1,43 @@
+/* src/components/StudentResult.css */
+.student-result {
+    font-family: Arial, sans-serif;
+    width: 80%;
+    margin: auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.student-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+thead th {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody td {
+    padding: 10px;
+    text-align: left;
+}
+
+.summary {
+    margin-top: 20px;
+}
+
+.summary p {
+    font-weight: bold;
+}
